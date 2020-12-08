@@ -1,0 +1,263 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	display: flex;
+}
+
+.my-nav {
+	background-color: #f1f1f1;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 300px;
+	position: fixed;
+	top: 60px;
+	left: 0;
+	width: 300px;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+
+.hidden-nav {
+	background-color: #f1f1f1;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 300px;
+	position: fixed;
+	top: 60px;
+	left: 0;
+	width: 0px;
+	height: 100%;
+	background-color: #FFFFFF;
+	transition: 1s ease;	
+}
+
+.abc {
+	width: 300px;
+	transition: 1s ease;
+}
+
+.hidden-nav-inside {
+	visibility: hidden;
+	transition: visibility .4s ease;
+}
+
+.xyz {
+	visibility: visible;
+	transition: visibility .2s ease;
+}
+
+.inside-nav {
+	
+}
+
+.main-menu {
+	margin-left: 300px;
+	background-color: #F1F1F1;
+	padding: 15px;
+}
+
+.deshboard {
+	margin-top: 54px;
+	font-weight: bold;
+}
+
+.profile {
+	padding: 20px 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar {
+	background-color: #e6e6e6;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.4);
+	z-index: 1;
+}
+
+.humberger-menu {
+	color: #333;
+	margin-left: 8px;
+	font-size: 22px;
+	cursor: pointer;
+	padding: 0px;
+	display: none;
+}
+
+
+.region-section, .progress-section, .countries, .recent-comment, 
+.unknown-section {
+	margin-top: 50px;
+}
+
+td {
+	padding: 10px 8px;
+}
+
+table tr:nth-child(odd) {
+	background-color: white;
+}
+
+.pro {
+	height: 45px;
+	width: 100%;
+	background-color: #009688;
+}
+
+.progress-done {
+	height: 100%;
+	width: 0px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	transition: 3s ease;
+}
+
+.one{
+   background-color: #4CAF50;
+}
+
+.two {
+	background-color: #FF9800;
+}
+
+.three {
+	background-color: #F44336;
+}
+
+#hidden-table {
+	display: none;
+}
+
+.show-less {
+	cursor: pointer;
+	color: #333;
+}
+
+.name {
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.recent-users {
+	margin-top: 50px;
+	background-color: white;
+	padding: 20px 10px;
+	box-shadow: 2px 2px 20px black;
+}
+
+.cmt-name {
+	font-size: 20px;
+	font-family: arial;
+	margin-top: 20px;
+}
+
+.cmt-date {
+	font-size: 14px;
+	font-style: italic;
+	color: #333;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none; 
+}
+
+ul li {
+	margin-top: 15px;
+	color: #f1f1f1;
+}
+
+.unknown-section {
+	background-color: #616161;
+	padding: 40px 15px;
+} 
+
+.footer {
+	margin-top: 50px;
+	padding-top: 30px;
+	border-top: 1px solid rgba(0,0,0,0.2);
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.overview .fa {
+	color: orange;
+}
+
+.overview p {
+	font-size: 18px;
+	cursor: pointer;
+	padding: 8px 0px;
+	margin: 4px 0px 0px 0px;
+	font-family: 'Californian FB';
+
+}
+
+.over {
+	background-color: #2196F3;
+	color: #f1f1f1;
+}
+
+.overview p:hover {
+	background: #f2f2f2;
+	transition: border .4s ease;
+}
+
+#desh {
+	font-size: 20px;
+	font-family: 'Californian FB';
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 992px) {
+	.main-menu {
+		margin-left: 0px;
+	}
+	.humberger-menu {
+		display: block;
+	}
+	
+	.my-nav {
+		display: none;
+	}
+
+	.humberger-menu {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 345px) {
+   .hidden-nav {
+   	   margin-top: 20px;
+   }
+}
+
+@media screen and (max-width: 326px) {
+	.deshboard {
+		margin-top: 80px;
+	}
+}

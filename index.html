@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="https://cdn.pixabay.com/photo/2019/06/12/17/18/smiley-4269804_960_720.jpg">
+	<title>Analytics</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="navbar" id="top">
+		<div class="humberger-menu"><i class="fa fa-bars"></i>
+		</div>
+		<form class="d-flex">
+			<input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success" type="submit">Search</button>
+		</form>
+	</div>
+	<div class="container-fluid">	
+		<nav class="my-nav">
+				<div class="profile">
+					<div><img src="Nishan.jpg" alt="" height="40px" width="40px" style="border-radius: 50%"> 
+					</div>
+					<div>
+						<p style="margin-bottom: 0px">Welcome Nishan</p>
+						<i class="fa fa-envelope"></i> &nbsp &nbsp &nbsp
+						<i class="fa fa-user"></i> &nbsp &nbsp &nbsp
+						<i class="fa fa-cog"></i>
+					</div>
+				</div>
+				<hr>
+				<div class="overview">
+					<p id="desh">Deshboard</p>
+					<p class="over"><i class="fa fa-users fa-fw"></i> Overview</p>
+					<p><i class="fa fa-eye fa-fw"></i> Views</p>
+					<p><i class="fa fa-users fa-fw"></i> Traffic</p>
+					<p><i class="fa fa-bullseye fa-fw"></i> Geo</p>
+					<p><i class="fa fa-diamond fa-fw"></i> Orders</p>
+					<p><i class="fa fa-bell fa-fw"></i> News</p>
+					<p><i class="fa fa-bank fa-fw"></i> General</p>
+					<p><i class="fa fa-history fa-fw"></i> History</p>
+					<p><i class="fa fa-cog fa-fw"></i> Setting</p>
+
+				</div>	
+		</nav>
+		<div class="hidden-nav">
+			<div class="hidden-nav-inside">
+				<div class="profile">
+					<div><img src="Nishan.jpg" alt="" height="40px" width="40px" style="border-radius: 50%"> 
+					</div>
+					<div>
+						<p style="margin-bottom: 0px">Welcome Nishan</p>
+						<i class="fa fa-envelope"></i> &nbsp &nbsp &nbsp
+						<i class="fa fa-user"></i> &nbsp &nbsp &nbsp
+						<i class="fa fa-cog"></i>
+					</div>
+				</div>
+				<hr>
+				<div class="overview">
+					<p id="desh">Deshboard</p>
+					<p class="over"><i class="fa fa-users fa-fw"></i> Overview</p>
+					<p><i class="fa fa-eye fa-fw"></i> Views</p>
+					<p><i class="fa fa-users fa-fw"></i> Traffic</p>
+					<p><i class="fa fa-bullseye fa-fw"></i> Geo</p>
+					<p><i class="fa fa-diamond fa-fw"></i> Orders</p>
+					<p><i class="fa fa-bell fa-fw"></i> News</p>
+					<p><i class="fa fa-bank fa-fw"></i> General</p>
+					<p><i class="fa fa-history fa-fw"></i> History</p>
+					<p><i class="fa fa-cog fa-fw"></i> Setting</p>
+
+				</div>	
+			</div>
+		</div>
+		<div class='main-menu'>
+			<h2 class='deshboard' id="C4">My Deshboard</h2>
+			<div class="row mt-4">
+				<div class="col-md-12 col-lg-3 badge bg-primary pt-4 pb-4">
+					<span></span>
+					<span id="counter" class="fs-1">52</span>
+					<p class="fs-1">Message</p>
+				</div>
+				<div class="col-md-12 col-lg-3 badge bg-info pt-4 pb-4">
+					<span></span>
+					<span id="counter" class="fs-1">99</span>
+					<p class="fs-1">Views</p>
+				</div>
+				<div class="col-md-12 col-lg-3 badge bg-warning pt-4 pb-4">
+					<span></span>
+					<span id="counter" class="fs-1">23</span>
+					<p class="fs-1">Shares</p>
+				</div>
+				<div class="col-md-12 col-lg-3 badge bg-success pt-4 pb-4">
+					<span></span>
+					<span id="counter" class="fs-1">50</span>
+					<p class="fs-1">Users</p>
+				</div>
+			</div>
+
+			<div class="region-section">
+				<div class="row">
+					<div class="col-md-6">
+						<h4>Regions</h4>
+						<div style="width: 100%"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=chittagong+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0"></iframe></div>
+					</div>
+					<div class="col-md-6">
+						<h4 class="pl-2">Feeds</h4>
+						<table width="100%">
+							<tr>
+								<td><i class="fa fa-user w3-text-blue w3-large" style="color: red"></i> &nbsp&nbsp &nbsp New record, over 90 views.</td>
+								<td style="padding-left: 80px">12 mins</td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-bell w3-text-red w3-large" style="color: orange"></i> &nbsp&nbsp &nbsp Database error.</td>
+								<td style="padding-left: 80px">10 mins</td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-users w3-text-yellow w3-large" style="color: blue"></i> &nbsp &nbsp New record, over 40 users.</td>
+								<td style="padding-left: 80px">5 mins</td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-comment w3-text-red w3-large" style="color: hotpink"></i> &nbsp&nbsp &nbsp New comments.</td>
+								<td style="padding-left: 80px">15 mins</td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-bookmark w3-text-blue w3-large" style="color: tomato"></i> &nbsp&nbsp &nbsp Check transactions.</td>
+								<td style="padding-left: 80px">12 mins</td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-laptop w3-text-red w3-large" style="color: orange"></i> &nbsp&nbsp &nbsp CPU overload.</td>
+								<td style="padding-left: 80px">14 mins</td>
+							</tr>
+							<tr>
+								<td><i class="fa fa-share-alt w3-text-green w3-large" style="color: green"></i> &nbsp&nbsp &nbsp New shares.</td>
+								<td style="padding-left: 80px">17 mins</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="progress-section">
+				<h4>New Visitors</h4>
+				<div class="pro">
+					<div class="progress-done one" date-done='85'>
+						85%
+					</div>
+				</div>
+				<br>
+				<h4>New Users</h4>
+				<div class="pro">
+					<div class="progress-done two" date-done='80'>
+						80%
+					</div>
+				</div>
+				<br>
+				<h4>Bounce Rate</h4>
+				<div class="pro">
+					<div class="progress-done three" date-done='90'>
+						90%
+					</div>
+				</div>
+			</div>
+
+			<div class="countries">
+				<h4>Countries</h4>
+				<table width="100%">
+							<tr>
+								<td>United States</td>
+								<td style="padding-left: 80px">40%</td>
+							</tr>
+							<tr>
+								<td>UK</td>
+								<td style="padding-left: 80px">12.21</td>
+							</tr>
+							<tr>
+								<td>Russia</td>
+								<td style="padding-left: 80px">8.01%</td>
+							</tr>
+							<tr>
+								<td>Spain</td>
+								<td style="padding-left: 80px">2.2%</td>
+							</tr>
+							<tr>
+								<td>India</td>
+								<td style="padding-left: 80px">7.22%</td>
+							</tr>
+							<tr>
+								<td>France</td>
+								<td style="padding-left: 80px">14%</td>
+							</tr>
+							<tr>
+								<td>Bangladesh</td>
+								<td style="padding-left: 80px">4.44%</td>
+							</tr>
+						</table>
+						<div id="hidden-table">
+						<br>
+						<table width="100%">
+							<tr>
+								<td>Nepal</td>
+								<td style="padding-left: 80px">40%</td>
+							</tr>
+							<tr>
+								<td>Afganistan</td>
+								<td style="padding-left: 80px">12.21</td>
+							</tr>
+							<tr>
+								<td>Pakistan</td>
+								<td style="padding-left: 80px">8.01%</td>
+							</tr>
+							<tr>
+								<td>China</td>
+								<td style="padding-left: 80px">2.2%</td>
+							</tr>
+							<tr>
+								<td>India</td>
+								<td style="padding-left: 80px">7.22%</td>
+							</tr>
+							<tr>
+								<td>France</td>
+								<td style="padding-left: 80px">14%</td>
+							</tr>
+							<tr>
+								<td>Bangladesh</td>
+								<td style="padding-left: 80px">4.44%</td>
+							</tr>
+						</table>
+						<span class='show-less'>Show less</span>
+						</div>
+						<button class="btn btn-primary mt-4" id="more-btn">More countries <i class="fa fa-arrow-right"></i></button>
+			</div>
+
+			<div class="recent-users">
+				<div style="border-bottom: 1px solid rgba(0,0,0,0.2); padding-bottom: 20px">
+					<img src="https://www.w3schools.com/w3images/avatar2.png" class="w3-left w3-circle w3-margin-right" style="width:35px; border-radius: 50%">
+					<span class="name">John Doe</span>
+				</div>
+
+				<div class="mt-4" style="border-bottom: 1px solid rgba(0,0,0,0.2); padding-bottom: 20px">
+					<img src="https://www.w3schools.com/w3images/avatar5.png" class="w3-left w3-circle w3-margin-right" style="width:35px; border-radius: 50%">
+					<span class="name">Mike Max</span>
+				</div>
+
+				<div class="mt-4">
+					<img src="https://www.w3schools.com/w3images/avatar6.png" class="w3-left w3-circle w3-margin-right" style="width:35px; border-radius: 50%">
+					<span class="name">Jeny Jili</span>
+				</div>
+			</div>
+
+			<div class="recent-comment">
+				<h4>Recent Comments</h4>
+				<div class="row">
+					<div class="col-12 col-sm-2">
+						<img src="https://www.w3schools.com/w3images/avatar3.png" alt="" height="100px" width="100px" style="border-radius: 50%">
+					</div>
+					<div class="col-12 col-sm-10 mt-2">
+						<span class="cmt-name">Honny</span> <span class="cmt-date">4 December, 2020</span>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugit fugiat vero consequuntur iusto illum, voluptatibus, obcaecati expedita nam ipsa aut odio ab saepe deserunt.</p>
+					</div>
+				</div>
+
+				<div class="row mt-4">
+					<div class="col-12 col-sm-2">
+						<img src="https://www.w3schools.com/w3images/avatar1.png" alt="" height="100px" width="100px" style="border-radius: 50%">
+					</div>
+					<div class="col-12 col-sm-10 mt-2">
+						<span class="cmt-name">Mosh</span> <span class="cmt-date">9 December, 2020</span>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugit fugiat vero consequuntur iusto illum, voluptatibus, obcaecati expedita nam ipsa aut odio ab saepe deserunt.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="unknown-section">
+				<div class="row">
+					<div class="col-sm-4 mt-4">
+						<h5 style="border-bottom: 6px solid #FF9800; padding-bottom: 8px; border-radius: 6px; color: #f1f1f2">Demographic</h5>
+						<ul>
+							<li>Language</li>
+							<li>Country</li>
+							<li>City</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 mt-4">
+						<h5 style="border-bottom: 6px solid #F44336; padding-bottom: 8px; border-radius: 6px; color: #f1f1f2">System</h5>
+						<ul>
+							<li>Browser</li>
+							<li>OS</li>
+							<li>More</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 mt-4">
+						<h5 style="border-bottom: 6px solid #4CAF50; padding-bottom: 8px; border-radius: 6px; color: #f1f1f2">Target</h5>
+						<ul>
+							<li>Users</li>
+							<li>Active</li>
+							<li>Geo</li>
+							<li>Interests</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				Powered by Nishan @ 2020
+				<a href="#C4"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+				</i></a>
+			</div>
+		</div>
+	</div>
+	<script src='main.js'></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
+
+</body>
+</html>
